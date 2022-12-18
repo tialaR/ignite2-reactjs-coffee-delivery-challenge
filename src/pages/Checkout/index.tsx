@@ -125,6 +125,7 @@ const Checkout: React.FC = () => {
             <S.CartContainer>
                 {cartProducts?.map((item: Product) => (
                     <CartCoffeeCard
+                        key={item.id}
                         coffeeImage={item.image}
                         coffeeTitle={item.name}
                         coffeeQuantity={item.quantity}

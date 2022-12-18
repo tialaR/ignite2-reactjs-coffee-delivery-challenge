@@ -48,7 +48,7 @@ const CoffeeCard: React.FC<CoffeeCardProps> = ({
         <CoffeEspecificationsContainer>
             <ul>
                 {coffeEspecifications?.map((coffeEspecification: string) => (
-                    <CoffeEspecification>
+                    <CoffeEspecification key={coffeEspecification}>
                         <span>{coffeEspecification}</span>
                     </CoffeEspecification>
                 ))}
