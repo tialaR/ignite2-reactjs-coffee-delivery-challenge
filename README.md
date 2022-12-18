@@ -15,6 +15,7 @@ Concepts such as:
 - LocalStorage
 - Immutability of state
 - Lists and keys in ReactJS
+- Forms in ReactJS with React Hook Forms
 - Properties
 - Componentization
  
